@@ -1,12 +1,12 @@
 import './App.css';
-import Student from './components/Student';
-
+import Button from './Button';
 function App() {
   return (
-    <div>
-      <Student name={'Angshuman'} age={28} maths={84} science={89} />
-      <Student name={'Akash'} age={28} maths={30} science={20} />
-    </div>
+    <>
+      <Button type="primary" size='sm'/>
+      <Button type="secondary" size='md'/>
+      <Button type="secondary" size='lg'/>
+    </>
   );
 }
 

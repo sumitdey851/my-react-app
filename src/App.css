@@ -12,3 +12,35 @@
 .failMarks {
   color: red;
 }
+
+/* SRP */
+.btn-primary-bg {
+  background-color: red;
+}
+
+.btn-primary-txt {
+  color: blue;
+}
+
+.btn-secondary-bg {
+  background-color: gray;
+}
+
+.btn-secondary-txt {
+  color: green;
+}
+
+.btn-sm {
+  padding: 5px 10px;
+  font-size: 8px;
+}
+
+.btn-md {
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+.btn-lg {
+  padding: 15px 30px;
+  font-size: 15px;
+}
